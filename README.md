@@ -48,18 +48,26 @@ Bucket: This is a storage location for your data. Create a bucket in the Cloud S
 
 Dockerfile: This is a text file that describes how to build a Docker image. You can create a Dockerfile in the bucket.
 
-Build the Docker image: You can build the Docker image from the Dockerfile using the following command: docker build -t <image_name> .
+Build the Docker image: You can build the Docker image from the Dockerfile using the following command: 
 
-After creating the Docker image, you can push it to the Docker Hub using the following command: docker push <image_name>
+```bash
+docker build -t <image_name> .
+```
 
+After creating the Docker image, you can push it to the Docker Hub using the following command: 
+```bash
+docker push <image_name>
+```
 Launching a Jupyter Notebook
 To launch a Jupyter Notebook from the Docker image, follow these steps:
 
 ```bash
 # Create a new instance of the Docker image.
 # Open a web browser and navigate to the URL for the Jupyter Notebook.
+```
 
-
-Create a new instance of the Docker image: You can do this using the following command: docker run -it -p 8888:8888 <image_name>
-
+Create a new instance of the Docker image: You can do this using the following command: 
+```bash
+docker run -it -p 8888:8888 <image_name>
+```
 Open a web browser and navigate to the URL for the Jupyter Notebook: After creating a new instance of the Docker image, open a web browser and navigate to `http://localhost:
