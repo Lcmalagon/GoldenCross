@@ -2,7 +2,7 @@
 
 This project is a data-driven approach to analyze whether golden crosses and death crosses are reliable indicators of stock price movement. The analysis is conducted in a Jupyter Notebook running in a Google Cloud VM instance. I found a significant correlation in the 50 Day Moving Average (DMA) and 200 DMA, demonstrating that golden crosses can predict stock price increases over a longer period, and similarly, death crosses can predict a downturn.
 
-![Alternative text for image]([URL of the image](https://s3.cointelegraph.com/uploads/2022-12/f336e087-0733-4773-a38b-6d21aa4bd182.png))
+![Alternative text for image]((https://s3.cointelegraph.com/uploads/2022-12/f336e087-0733-4773-a38b-6d21aa4bd182.png))
 
 
 ## Getting Started
