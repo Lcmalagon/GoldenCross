@@ -22,7 +22,7 @@ To create a new VM instance, follow these steps:
 # Specify the amount of memory and storage for your VM instance.
 # Choose an operating system for your VM instance.
 # Create a firewall rule to allow traffic to your VM instance.
-
+```
 Region and zone: These refer to the geographic location where your VM instance will be hosted. For instance, you could choose the region "us-central1" and the zone "us-central1-a".
 
 Machine type: This is the size and type of the VM instance. For example, "n1-standard-1" is a 1 vCPU, 3.75 GB memory machine.
