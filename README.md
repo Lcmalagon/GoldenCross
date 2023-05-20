@@ -42,6 +42,7 @@ To create a bucket and a Docker image, follow these steps:
 # Create a bucket in the Cloud Storage console.
 # Create a Dockerfile in the bucket.
 # Build the Docker image from the Dockerfile.
+```
 
 Bucket: This is a storage location for your data. Create a bucket in the Cloud Storage console.
 
